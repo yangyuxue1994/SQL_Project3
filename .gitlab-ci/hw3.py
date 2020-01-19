@@ -1,7 +1,7 @@
 from sys import exit
 from checks import check, check_files_exist, check_sqlite_commands, check_has_sql_comments
 
-query_files = [f"hw3-q{q}.sql" for q in range(1, 8)]
+query_files = [f"hw3-q{q}.sql" for q in range(1, 9)]
 writeup = "hw3-d.txt"
 
 def check_file_locations(error):
