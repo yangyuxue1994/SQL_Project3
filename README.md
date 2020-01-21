@@ -187,28 +187,28 @@ Do some `SELECT count(*)` statements to check whether your imports were successf
 
 ### B. Ingesting Data (Alternative) (0 Points)
 
-There's another way to upload the data with an IDE called DataGrip. It's a useful program, and also functions as a good place to write and execute your SQL queries with the Azure database. You can use it for the trial period which should be plenty (and once your data is uploaded to Azure you can use the web interface afterwards if you don't want to stick with DataGrip.)
+There's another way to upload the data with an IDE called [DataGrip](https://www.jetbrains.com/datagrip/). 
+It's a useful program, and also functions as a good place to write and execute your SQL queries with the Azure database. 
+You may use it for the trial period which should be plenty (and once your data is uploaded to Azure you can use the web interface afterwards if you don't want to stick with DataGrip). 
+You may also use it with a [free student license](https://www.jetbrains.com/student/) if you register with your UW email address.
 
-Here's the main page and some steps to get you to the upload:
-[https://www.jetbrains.com/datagrip/](https://www.jetbrains.com/datagrip/)
+1. Follow the [instructions](https://www.jetbrains.com/help/datagrip/connecting-to-a-database.html#ms_azure) for connecting to Azure.
 
-1. Instructions for connecting to Azure:
-   [https://www.jetbrains.com/help/datagrip/connecting-to-a-database.html#ms_azure](https://www.jetbrains.com/help/datagrip/connecting-to-a-database.html#ms_azure)
+2. Run your create table statements in Azure.
 
-2. At this point you should run your create table statements in Azure.
+3. There's an extra step here they don't mention in the connection instructions, to make your tables visible. 
+When setting up your data source, you have to click the schemas tab and check the boxes for the database name, and `dbo`.
 
-3. There's an extra step here they don't mention in the connection instructions, to make your tables visible. When setting up your data source, you have to click      the schemas tab and check the boxes for the database name, and dbo.
+*NOTE: The picture corresponds to cse414-18au, but for us it should say cse414-20wi or whatever you choose as a name for your database instead.*
 
-``` NOTE: The picture corresponds to cse414-18au, but for us it should say cse414-20wi or whatever you choose as a name for your database instead```
-
-![datagrip schema](./figs/datagrip1.png)
+![datagrip schema](https://courses.cs.washington.edu/courses/cse414/20wi/datagrip1.png)
 
 4. Now your tables should be visible in the drop down box.
 
-![datagrip tables](./figs/datagrip2.png)
+![datagrip schema](https://courses.cs.washington.edu/courses/cse414/20wi/datagrip2.png)
 
-5. Now you can import the csvs by right clicking the table to want to upload and finding the .csv file.
-   [https://www.jetbrains.com/datagrip/features/importexport.html](https://www.jetbrains.com/datagrip/features/importexport.html)
+5. Now you can [import the csvs](https://www.jetbrains.com/datagrip/features/importexport.html) 
+by right clicking the table to want to upload and finding the .csv file.
 
 ### C. SQL Queries (90 points):
 
