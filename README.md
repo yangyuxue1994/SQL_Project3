@@ -233,7 +233,7 @@ Answer the following questions:
 1. (10 points)
 Between how many distinct pairs of cities (indepdendent of flight direction) do direct flights operate?
 By "direct flight", we mean a flight with no intermediate stops.
-By "independent of flight direction", we mean that two cities such as ('Seattle WA','Boise ID') 
+By "independent of flight direction", we mean that two cities such as ('Seattle WA', 'Boise ID') 
 should be counted once even if there are both flights from Seattle to Boise and from Boise to Seattle.
 Consider both canceled and non-canceled flights.
 
@@ -313,7 +313,7 @@ List the names of carriers that operate flights from Seattle to San Francisco CA
     [Output relation cardinality: 4]
 
 8. (5 points)
-For each day of the week, find cities with the top two highest average number of arriving flights on that day of week.
+For each day of the week, find cities with the *top two* highest average number of arriving flights on that day of week.
 Report the day of week, city, and the average number of arriving flights into that city on that day of the week.
 
     Warning: the days of the week occur a different number of times in the Flights dataset. 
@@ -322,6 +322,8 @@ Report the day of week, city, and the average number of arriving flights into th
     Name the output columns `day_of_week`, `dest_city`, `avg_flights`.
     Report day of week names (e.g. Sunday) rather than day of week numbers (e.g. 7).
     Order the days of the week from Monday to Sunday in order (e.g. Monday, Tuesday, Wednesday, ...), then by `avg_flights` descending.
+
+    [Output relation cardinality: 14]
 
 
 
