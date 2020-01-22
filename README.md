@@ -42,7 +42,7 @@ This step may seem tedious but it is crucially important. We want you to be able
 
 Click on the "Accept lab assignment" link in the email "Action required: Accept your lab assignment", log in using your washington.edu account and password.
 
-Afterward, you will be forwarded to the [Azure portal](https://portal.azure.com/).
+Afterward, you will be forwarded to the [Azure portal](https://portal.azure.com/). Don't forget to click "accept lab handout" on the front page to receive your Azure credits.
 
 
 #### Step 2: Learn about Azure SQL Server
