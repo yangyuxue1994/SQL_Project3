@@ -11,23 +11,26 @@ ORDER BY F1.origin_city
 -- Rows Returned: 109
 -- Query Execution Time: 00:00:13.016
 -- Output Columns:
+
+-- city       
+-- -----------
 -- Aberdeen SD
--- Abilene TX
--- Alpena MI
--- Ashland WV
--- Augusta GA
--- Barrow AK
--- Beaumont/Port Arthur TX
--- Bemidji MN
--- Bethel AK
--- Binghamton NY
+-- Abilene TX 
+-- Alpena MI  
+-- Ashland WV 
+-- Augusta GA 
+-- Barrow AK  
+-- Beaumont/Po
+-- Bemidji MN 
+-- Bethel AK  
+-- Binghamton 
 -- Brainerd MN
--- Bristol/Johnson City/Kingsport TN
--- Butte MT
+-- Bristol/Joh
+-- Butte MT   
 -- Carlsbad CA
--- Casper WY
--- Cedar City UT
--- Chico CA
--- College Station/Bryan TX
+-- Casper WY  
+-- Cedar City 
+-- Chico CA   
+-- College Sta
 -- Columbia MO
 -- Columbus GA
