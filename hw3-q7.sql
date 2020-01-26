@@ -9,7 +9,10 @@ WHERE C.cid IN (
 -- Rows Returned: 4
 -- Query Execution Time: 00:00:04.570
 -- Output Columns:
+
+-- carrier             
+-- --------------------
 -- Alaska Airlines Inc.
--- SkyWest Airlines Inc.
--- United Air Lines Inc.
--- Virgin America
+-- SkyWest Airlines Inc
+-- United Air Lines Inc
+-- Virgin America 
