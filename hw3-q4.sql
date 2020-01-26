@@ -22,14 +22,14 @@ VAR3 AS (
         GROUP BY F2.origin_city)
     GROUP BY F1.origin_city
 )
-SELECT V.origin_city, CAST(V.VAL as FLOAT) / CAST(V2.VAL as FLOAT) * 100 AS PERC
+SELECT V.origin_city AS origin_city, CAST(V.VAL as FLOAT) / CAST(V2.VAL as FLOAT) * 100 AS percentage
 FROM VAR2 AS V2,
     (SELECT *
     FROM VAR1
     UNION SELECT *
     FROM VAR3) AS V
 WHERE V.origin_city = V2.origin_city
-ORDER BY PERC
+ORDER BY percentage
 
 -- Rows Returned: 327
 -- Query Execution Time: 00:00:38.763

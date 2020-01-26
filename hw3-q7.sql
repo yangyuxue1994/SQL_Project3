@@ -1,4 +1,4 @@
-SELECT C.name
+SELECT C.name AS carrier
 FROM Carriers AS C
 WHERE C.cid IN (
     SELECT F.carrier_id

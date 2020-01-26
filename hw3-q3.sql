@@ -1,4 +1,4 @@
-SELECT DISTINCT F1.origin_city
+SELECT DISTINCT F1.origin_city AS city
 FROM Flights AS F1
 WHERE NOT EXISTS (
     SELECT F2.origin_city
