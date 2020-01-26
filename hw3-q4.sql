@@ -33,24 +33,28 @@ ORDER BY PERC
 
 -- Rows Returned: 327
 -- Query Execution Time: 00:00:38.763
--- Output Columns:
--- Guam TT	0
--- Pago Pago TT	0
--- Aguadilla PR	28.8973384030418
--- Anchorage AK	31.8120805369128
--- San Juan PR	33.6605316973415
--- Charlotte Amalie VI	39.5588235294118
--- Ponce PR	40.9836065573771
--- Fairbanks AK	50.1165501165501
--- Kahului HI	53.5144713526285
--- Honolulu HI	54.7390288236822
--- San Francisco CA	55.8288645371882
--- Los Angeles CA	56.0808908229873
--- Seattle WA	57.6093877922314
--- Long Beach CA	62.176439513999
--- New York NY	62.371834136728
--- Kona HI	63.1607929515419
--- Las Vegas NV	64.9202563720376
--- Christiansted VI	65.1006711409396
--- Newark NJ	65.8499710969807
--- Plattsburgh NY	66.6666666666667
+-- Output Columns: (first 20 rows)
+
+
+-- city        percentage
+-- ----------  ----------
+-- Guam TT     0         
+-- Pago Pago   0         
+-- Aguadilla   28.8973384
+-- Anchorage   31.8120805
+-- San Juan P  33.6605316
+-- Charlotte   39.5588235
+-- Ponce PR    40.9836065
+-- Fairbanks   50.1165501
+-- Kahului HI  53.5144713
+-- Honolulu H  54.7390288
+-- San Franci  55.8288645
+-- Los Angele  56.0808908
+-- Seattle WA  57.6093877
+-- Long Beach  62.1764395
+-- New York N  62.3718341
+-- Kona HI     63.1607929
+-- Las Vegas   64.9202563
+-- Christians  65.1006711
+-- Newark NJ   65.8499710
+-- Plattsburg  66.6666666
