@@ -1,0 +1,28 @@
+My experience using the Azure DBMS cloud service was at first complicated but very awesome
+the long term benefits of employing such a technology is very important. As with any new
+technology mos of the difficulty was in setting up the database as well as becoming familiar
+with the Azure interface. For example, I had some original difficulties uploading the Flights
+database to the Azure database and it was simply due to a lack of understanding of the Azure
+interface. Additionally, there were some difficulties in configuring it with my specific IDE
+(VSCode) but those were personal difficulties. The benefits are great such as being able to
+afford the use of world-class database technologies as well as not having to deal with so much
+of the database management/hardware side of writing code. I am very excited I got to work with
+this cloud service because I know it is huge in industry and the safekeeping of records in the
+cloud is also very underrated.
+
+Advantages:
+- Afford world-class database hardware.
+- Only pay for as much storage and compute power as you use.
+- Do not need to worry about maintaining, deploying, and servicing your database systems.
+- Information is securely stored in cloud and not having in-house data storage means
+  you are not risking physical damage to your databases.
+- Cloud compute allows the burden of compute to be on cloud comput rather than local computer.
+- You can access the database from anywhere instead of having to be connected to it locally.
+
+Disadvantages:
+- As with any technologies there are difficulties in learning the Azure interface as well
+  as how the database works.
+- You must have a network connection to interact with a cloud-based DBMS.
+- Although security is a strong-suit of cloud technology these days it is always a risk to
+  house information on the internet.
+- A vulnerability in the Azure service means there is a vulnerability in your own data.
