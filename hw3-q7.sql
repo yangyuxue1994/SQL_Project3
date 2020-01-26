@@ -5,6 +5,9 @@ WHERE C.cid IN (
     FROM Flights AS F
     WHERE F.origin_city = 'Seattle WA'
         AND F.dest_city = 'San Francisco CA')
+ORDER BY carrier
+;
+
 
 -- Rows Returned: 4
 -- Query Execution Time: 00:00:04.570

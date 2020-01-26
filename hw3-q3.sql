@@ -6,7 +6,7 @@ WHERE NOT EXISTS (
     WHERE F1.origin_city = F2.origin_city
         AND F2.actual_time >= 180
 )
-ORDER BY F1.origin_city
+ORDER BY F1.origin_city;
 
 -- Rows Returned: 109
 -- Query Execution Time: 00:00:13.016

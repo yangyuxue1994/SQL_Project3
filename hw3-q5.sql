@@ -16,6 +16,7 @@ SELECT DISTINCT V.dest_city AS city
 FROM VAL AS V, VAL1 AS V1
 WHERE V1.dest_city = V.origin_city
     AND V.dest_city != 'Seattle WA'
+ORDER BY city;
 
 -- Rows Returned: 256
 -- Query Execution Time: 00:00:22.156

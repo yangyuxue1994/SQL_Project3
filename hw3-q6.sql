@@ -10,7 +10,8 @@ WHERE F1.origin_city NOT IN (
     FROM Flights AS F2
     WHERE F2.origin_city = 'Seattle WA'
 )
-
+ORDER BY city
+;
 -- Rows Returned: 4
 -- Query Execution Time: 00:00:47.518
 -- Output Columns:

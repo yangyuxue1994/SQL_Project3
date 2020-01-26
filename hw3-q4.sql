@@ -29,7 +29,7 @@ FROM VAR2 AS V2,
     UNION SELECT *
     FROM VAR3) AS V
 WHERE V.origin_city = V2.origin_city
-ORDER BY percentage
+ORDER BY percentage;
 
 -- Rows Returned: 327
 -- Query Execution Time: 00:00:38.763

@@ -26,7 +26,7 @@ SELECT *
 FROM VAR1
 UNION
 SELECT *
-FROM VAR2 ) u
+FROM VAR2 ) u;
 
 -- Rows Returned: 1
 -- Query Execution Time: 00:00:44.599
