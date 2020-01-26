@@ -1,4 +1,4 @@
-SELECT DISTINCT F1.origin_city
+SELECT DISTINCT F1.origin_city AS city
 FROM Flights AS F1
 WHERE F1.origin_city NOT IN (
     SELECT DISTINCT F4.dest_city
@@ -14,6 +14,10 @@ WHERE F1.origin_city NOT IN (
 -- Rows Returned: 4
 -- Query Execution Time: 00:00:47.518
 -- Output Columns:
+
+
+-- city
+-- ---------------
 -- Devils Lake ND
 -- Hattiesburg/Laurel MS
 -- St. Augustine FL
