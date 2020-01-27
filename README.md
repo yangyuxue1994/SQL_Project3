@@ -255,7 +255,7 @@ Judge the shortest flight in time, not distance.
 
 
 3. (10 points)
-Find all origin cities that only serve *non-canceled* flights shorter than 3 hours. 
+Find origin cities that only serve flights shorter than 3 hours. 
 
     Name the output column `city` and sort them alphabetically. List each city only once in the result.
 
@@ -264,8 +264,7 @@ Find all origin cities that only serve *non-canceled* flights shorter than 3 hou
 
 4. (15 points) 
 For each origin city, find the percentage of *non-canceled* departing flights shorter than 3 hours. 
-(That is, find the proportion of non-canceled flights shorter than 3 hours
-to all non-canceled flights, for each origin city.)
+(That is, compute `number of non-canceled departing flights shorter than 3 hours` / `number of non-canceled departing flights` * 100%, for each origin city.)
 
     Name the output columns `origin_city` and `percentage`
     Order by percentage value, ascending. 
