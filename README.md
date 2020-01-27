@@ -114,7 +114,10 @@ Perform the following configuration:
 Finally, scroll down to the "Security" section on the left side bar, click "Firewalls and Virtual networks".
 You need to change this setting if you wish to access your database from an external tool 
 such as JetBrains [DataGrip](https://www.jetbrains.com/datagrip/), [IntelliJ](https://www.jetbrains.com/idea/), 
+[Visual Studio Code](https://docs.microsoft.com/en-us/sql/visual-studio-code/sql-server-develop-use-vscode?view=azuresqldb-current),
 or [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms?view=azuresqldb-current) (all free for students).
+Using one of these tools is recommended, as your queries are no longer limited to a 5 minute timeout
+(though, we hope you write queries that take shorter than 5 minutes to execute).
 The easiest option is to add a rule that allows connections from any client, which you can do as follows:
 
 <img src="https://courses.cs.washington.edu/courses/cse414/17sp/hw/hw3/firewall-rule.png" width="400"/>
