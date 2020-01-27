@@ -42,7 +42,7 @@ This step may seem tedious but it is crucially important. We want you to be able
 
 Click on the "Accept lab assignment" link in the email "Action required: Accept your lab assignment", log in using your washington.edu account and password.
 
-Afterward, you will be forwarded to the [Azure portal](https://portal.azure.com/).
+Afterward, you will be forwarded to the [Azure portal](https://portal.azure.com/). Don't forget to click "accept lab handout" on the front page to receive your Azure credits.
 
 
 #### Step 2: Learn about Azure SQL Server
@@ -114,7 +114,10 @@ Perform the following configuration:
 Finally, scroll down to the "Security" section on the left side bar, click "Firewalls and Virtual networks".
 You need to change this setting if you wish to access your database from an external tool 
 such as JetBrains [DataGrip](https://www.jetbrains.com/datagrip/), [IntelliJ](https://www.jetbrains.com/idea/), 
+[Visual Studio Code](https://docs.microsoft.com/en-us/sql/visual-studio-code/sql-server-develop-use-vscode?view=azuresqldb-current),
 or [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms?view=azuresqldb-current) (all free for students).
+Using one of these tools is recommended, as your queries are no longer limited to a 5 minute timeout
+(though, we hope you write queries that take shorter than 5 minutes to execute).
 The easiest option is to add a rule that allows connections from any client, which you can do as follows:
 
 <img src="https://courses.cs.washington.edu/courses/cse414/17sp/hw/hw3/firewall-rule.png" width="400"/>
@@ -255,7 +258,7 @@ Judge the shortest flight in time, not distance.
 
 
 3. (10 points)
-Find all origin cities that only serve *non-canceled* flights shorter than 3 hours. 
+Find origin cities that only serve flights shorter than 3 hours. 
 
     Name the output column `city` and sort them alphabetically. List each city only once in the result.
 
@@ -264,8 +267,7 @@ Find all origin cities that only serve *non-canceled* flights shorter than 3 hou
 
 4. (15 points) 
 For each origin city, find the percentage of *non-canceled* departing flights shorter than 3 hours. 
-(That is, find the proportion of non-canceled flights shorter than 3 hours
-to all non-canceled flights, for each origin city.)
+(That is, compute `number of non-canceled departing flights shorter than 3 hours` / `number of non-canceled departing flights` * 100%, for each origin city.)
 
     Name the output columns `origin_city` and `percentage`
     Order by percentage value, ascending. 
