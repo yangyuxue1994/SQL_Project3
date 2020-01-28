@@ -22,26 +22,28 @@ ORDER BY city;
 -- Query Execution Time: 00:00:22.156
 -- Output Columns: (first 20 rows)
 
--- city        
+-- city
 -- ------------
+-- Aberdeen SD
+-- Abilene TX
+-- Adak Island AK
 -- Aguadilla PR
--- Akron OH    
--- Bangor ME   
--- Birmingham A
--- Bozeman MT  
--- Buffalo NY  
--- Burlington V
--- Charleston S
--- Charlotte Am
--- Charlottesvi
--- Columbia SC 
--- Columbus OH 
--- Dayton OH   
--- Fayetteville
--- Fort Myers F
--- Grand Rapids
--- Greensboro/H
--- Greer SC    
--- Hyannis MA  
--- Jacksonville
+-- Akron OH
+-- Albany GA
+-- Albany NY
+-- Alexandria LA
+-- Allentown/Bethlehem/Easton PA
+-- Alpena MI
+-- Amarillo TX
+-- Appleton WI
+-- Arcata/Eureka CA
+-- Asheville NC
+-- Ashland WV
+-- Aspen CO
+-- Atlantic City NJ
+-- Augusta GA
+-- Bakersfield CA
+-- Bangor ME
+
+
 
